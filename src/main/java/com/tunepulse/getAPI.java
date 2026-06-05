@@ -8,6 +8,7 @@ import com.google.gson.*;
 
 public class getAPI {
     //$env:GETSONG_API_KEY=""
+    //mvn clean compile exec:java "-Dexec.mainClass=com.tunepulse.App"
     private static final String keyAPI = System.getenv("GETSONG_API_KEY");
     private static final String webSiteURL = "https://api.getsong.co";
 
